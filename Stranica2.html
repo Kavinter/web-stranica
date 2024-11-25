@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anketa</title>
+    <link rel="stylesheet" type="text/css" href="css/styleg.css">
+    <script src="./js/validnost.js"></script>
+    <style>
+      #naslov{
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+    </style>
+  </head>
+  <body style="background-color: sandybrown" onload="pokreni()">
+    <h3 id="naslov">Anketa: Da li Vam se svideo naš sajt?</h3>
+    <form action="" onsubmit="ispis()">
+      <fieldset class="polje">
+        <legend>Lični podaci</legend>
+        <input type="text" placeholder="Vaše ime i prezime" id="ime" required><br><br>
+        <input type="email" placeholder="Vaš e-mail" id="email" required><br><br>
+        <input type="password" placeholder="Vaša lozinka" id="lozinka" required><br><br>
+        Koliko imate godina? <input type="number" id="godine" min="18" required>
+      </fieldset>
+
+      <fieldset class="polje">
+        <legend>Izaberite Vaš Pol</legend>
+        Muški <input type="radio" name="pol" required id="pol"><br><br>
+        Ženski <input type="radio" name="pol"><br><br>
+        Ostalo <input type="radio" name="pol">
+      </fieldset>
+
+      <fieldset class="polje">
+        <legend>Ostalo</legend>
+        Datum popunjavanja ankete <input type="date" required id="datum"><br><br>
+        Da li Vam se svideo sajt <br>
+        <input type="radio" required id="cekirati" name="cekirano">Da 
+        <input type="radio" name="cekirano">Ne<br><br>
+        Ostavite komentar kako bi poboljšalji naš sajt: <br>
+        <textarea name="Komentar" cols="40" rows="10" placeholder="Vaš komentar..." required id="komentar" maxlength="200"></textarea>
+      </fieldset>
+
+      <input
+        type="submit"
+        value="Pošalji"
+        style="
+          padding: 10px;
+          border-radius: 30%;
+          background-color: brown;
+          color: white;
+          cursor: pointer;
+        "
+      >
+    </form>
+    <div class="povratak">
+    <a href="Glavna.html"><h4>Vrati se na početnu stranu</h4></a>
+    </div>
+  </body>
+</html>
