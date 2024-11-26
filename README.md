@@ -33,7 +33,7 @@ This project is a simple multi-page static website dedicated to two of the great
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/kavinter/web-stranica.git
+   git clone https://github.com/Kavinter/web-stranica.git
 2. Navigate to the project directory.
 3. Open Glavna.html in your browser to start exploring the website.
 
