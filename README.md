@@ -38,7 +38,7 @@ This project is a simple multi-page static website dedicated to two of the great
 3. Open Glavna.html in your browser to start exploring the website.
 
 ## File Structure
-
+```
 .
 ├── Glavna.html            # Home Page
 ├── Stranica1.html         # Lionel Messi Page
@@ -52,3 +52,4 @@ This project is a simple multi-page static website dedicated to two of the great
 │   └── validnost.js      # JavaScript for form validation
 ├── slike/
 │   └── (Images used on the website)
+```
