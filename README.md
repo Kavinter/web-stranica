@@ -39,7 +39,7 @@ This project is a simple multi-page static website dedicated to two of the great
 
 ## File Structure
 
-
+.
 ├── Glavna.html            # Home Page
 ├── Stranica1.html         # Lionel Messi Page
 ├── Stranica2.html         # Survey Page
